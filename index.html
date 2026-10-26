@@ -1,0 +1,409 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#09070f">
+<title>Bahadur Meena | Creator Portfolio</title>
+<meta name="description" content="Bahadur Meena - Comedy and Entertainment Creator. Available for brand promotions.">
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #09070f;
+  color: #ffffff;
+  line-height: 1.7;
+}
+
+.container {
+  width: 90%;
+  max-width: 1050px;
+  margin: auto;
+}
+
+header {
+  padding: 22px 0;
+  border-bottom: 1px solid #ffffff20;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.logo span {
+  color: #c084fc;
+}
+
+nav a {
+  color: #d8b4fe;
+  text-decoration: none;
+}
+
+.hero {
+  padding: 100px 0;
+  background: radial-gradient(
+    circle at 80% 20%,
+    #7e22ce50,
+    transparent 45%
+  );
+}
+
+.tag {
+  display: inline-block;
+  padding: 7px 14px;
+  border: 1px solid #a855f7;
+  border-radius: 30px;
+  color: #d8b4fe;
+  font-size: 12px;
+  margin-bottom: 25px;
+}
+
+h1 {
+  font-size: clamp(40px, 8vw, 72px);
+  line-height: 1.15;
+  margin-bottom: 22px;
+}
+
+h1 span {
+  background: linear-gradient(
+    90deg,
+    #c084fc,
+    #f0abfc,
+    #ec4899
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.hero p {
+  max-width: 600px;
+  color: #c4bbd2;
+  margin-bottom: 28px;
+  font-size: 17px;
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 20px;
+  border-radius: 9px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.primary {
+  background: linear-gradient(90deg, #9333ea, #c026d3);
+  color: white;
+}
+
+.secondary {
+  border: 1px solid #a855f7;
+  color: white;
+}
+
+section {
+  padding: 65px 0;
+}
+
+h2 {
+  font-size: 34px;
+  margin-bottom: 15px;
+}
+
+.subtitle {
+  color: #c4bbd2;
+  margin-bottom: 28px;
+}
+
+.about {
+  padding: 28px;
+  border: 1px solid #a855f755;
+  border-radius: 16px;
+  background: #171020;
+}
+
+.about p {
+  color: #c4bbd2;
+  margin-top: 12px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+}
+
+.card {
+  background: #171020;
+  border: 1px solid #ffffff15;
+  border-radius: 16px;
+  padding: 24px;
+}
+
+.card .emoji {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.card h3 {
+  margin-bottom: 8px;
+}
+
+.card p {
+  color: #c4bbd2;
+  font-size: 14px;
+}
+
+.contact {
+  text-align: center;
+  background: radial-gradient(
+    circle at center,
+    #7e22ce30,
+    transparent 65%
+  );
+}
+
+.contact p {
+  color: #c4bbd2;
+  max-width: 550px;
+  margin: 12px auto 25px;
+}
+
+.center {
+  justify-content: center;
+}
+
+.email {
+  display: block;
+  margin-top: 22px;
+  color: #d8b4fe;
+  overflow-wrap: anywhere;
+}
+
+footer {
+  padding: 22px 0;
+  border-top: 1px solid #ffffff20;
+  color: #9e95aa;
+  text-align: center;
+  font-size: 13px;
+}
+
+@media (max-width: 700px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hero {
+    padding: 75px 0;
+  }
+
+  section {
+    padding: 48px 0;
+  }
+
+  h2 {
+    font-size: 29px;
+  }
+
+  nav {
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <div class="container">
+    <nav>
+      <div class="logo">BAHADUR<span>.</span></div>
+      <a href="#contact">Brand Collaboration ↗</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+<section class="hero">
+  <div class="container">
+    <div class="tag">COMEDY • ENTERTAINMENT • CREATOR</div>
+
+    <h1>
+      Hey, I'm<br>
+      <span>Bahadur Meena.</span>
+    </h1>
+
+    <p>
+      Turning everyday moments into entertainment!
+      I create comedy content to make people smile.
+      Let's connect through creativity and fun.
+    </p>
+
+    <div class="buttons">
+      <a class="btn primary"
+         href="https://www.instagram.com/"
+         target="_blank"
+         rel="noopener noreferrer">
+        📸 Visit Instagram
+      </a>
+
+      <a class="btn secondary" href="#contact">
+        🤝 Work With Me
+      </a>
+    </div>
+  </div>
+</section>
+
+<section id="about">
+  <div class="container">
+    <h2>About Me ✨</h2>
+
+    <div class="about">
+      <h3>Creativity Meets Entertainment</h3>
+
+      <p>
+        I'm Bahadur Meena, a Comedy and Entertainment creator.
+        I enjoy creating relatable and entertaining content
+        for my audience.
+      </p>
+
+      <p>
+        I'm open to brand promotions, sponsored reels,
+        product features and creative collaborations.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section id="content">
+  <div class="container">
+    <h2>What I Create 🎬</h2>
+    <p class="subtitle">
+      Content made to entertain and engage.
+    </p>
+
+    <div class="grid">
+      <div class="card">
+        <div class="emoji">😂</div>
+        <h3>Comedy Reels</h3>
+        <p>Funny and relatable moments for entertainment.</p>
+      </div>
+
+      <div class="card">
+        <div class="emoji">🎭</div>
+        <h3>Entertainment</h3>
+        <p>Creative ideas and engaging short videos.</p>
+      </div>
+
+      <div class="card">
+        <div class="emoji">🚀</div>
+        <h3>Brand Promotion</h3>
+        <p>Creative promotional content for suitable brands.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="collaboration">
+  <div class="container">
+    <h2>Let's Collaborate 🤝</h2>
+
+    <p class="subtitle">
+      Let's create something memorable together.
+    </p>
+
+    <div class="grid">
+      <div class="card">
+        <div class="emoji">📱</div>
+        <h3>Sponsored Reels</h3>
+        <p>Short-form promotional content for campaigns.</p>
+      </div>
+
+      <div class="card">
+        <div class="emoji">✨</div>
+        <h3>Product Features</h3>
+        <p>Creative product highlights and storytelling.</p>
+      </div>
+
+      <div class="card">
+        <div class="emoji">💜</div>
+        <h3>Brand Partnerships</h3>
+        <p>Let's discuss ideas for your next campaign.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <div class="container">
+    <div class="tag">LET'S MAKE IT HAPPEN</div>
+
+    <h2>Let's Work Together!</h2>
+
+    <p>
+      For brand promotions and collaborations,
+      contact me through email or Instagram.
+    </p>
+
+    <div class="buttons center">
+      <a class="btn primary"
+         href="mailto:bahadurmeena7865@gmail.com">
+        ✉️ Email Me
+      </a>
+
+      <a class="btn secondary"
+         href="https://www.instagram.com/"
+         target="_blank"
+         rel="noopener noreferrer">
+        Instagram DM
+      </a>
+    </div>
+
+    <a class="email"
+       href="mailto:bahadurmeena7865@gmail.com">
+      bahadurmeena7865@gmail.com
+    </a>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="container">
+    © <span id="year"></span> Bahadur Meena | Creator Portfolio
+  </div>
+</footer>
+
+<script>
+document.getElementById("year").textContent =
+  new Date().getFullYear();
+</script>
+
+</body>
+</html>
